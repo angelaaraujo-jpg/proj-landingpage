@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta name="description" content="Baixe nosso e-book gratuito e aprenda as melhores técnicas de desenvolvimento web.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">  
+            <h1>
+    <a href="#">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <span class="logo-main">Dev.</span>
+        <span class="logo-sub">Cursos</span>
+    </a>
+</h1>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#beneficios">Benefícios</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#inscricao">Inscrição</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <h1>Domine o Desenvolvimento Web com Nosso E-book Gratuito!</h1>
+                <h2>Aprenda as bases de HTML, CSS e JavaScript de forma simples e rápida.</h2>
+                <a href="#inscricao" class="cta-button">Quero meu E-book Agora!</a>
+                </div>
+        </section>
+
+        <section id="beneficios" class="beneficios">
+            <div class="container">
+                <h2>O QUE VOCÊ VAI APRENDER NO CURSO?</h2>
+                <div class="beneficio-item">
+                    <h3>Estrutura HTML</h3>
+                    <p>Crie o esqueleto de qualquer página com HTML semântico.</p>
+                </div>
+                <div class="beneficio-item">
+                    <h3>Estilização com CSS</h3>
+                    <p>Deixe suas páginas visualmente incríveis e responsivas.</p>
+                </div>
+                <div class="beneficio-item">
+                    <h3>Interatividade JS</h3>
+                    <p>Adicione validações e funções dinâmicas com JavaScript.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="depoimentos" class="depoimentos">
+            <div class="container">
+                <h2>O QUE DIZEM NOSSOS ALUNOS?</h2>
+                <div class="depoimento-item">
+                    <p>"Estava travado no front-end. Em 1 semana, o e-book me deu a base de JavaScript que eu precisava. Finalmente entendi a validação de formulários!"</p>
+                    <div class="rating"> Avaliação: ★★★★★</div> 
+                    <p class="autor">- Robson S. (Desenvolvedor Júnior)</p>
+                </div>
+                <div class="depoimento-item">
+                    <p>Superou minhas expectativas! É o guia mais completo para iniciantes. Economizei horas de pesquisa na internet."</p>
+                    <div class="rating"> Avaliação: ★★★★★</div> 
+                    <p class="autor">- Júlia C. (Estudante de TI)</p>
+                </div>
+                <div class="depoimento-item">
+                    <p>"Claro, prático e sem enrolação. Recomendo para quem quer parar de depender de tutoriais vagos do YouTube."</p>
+                    <div class="rating"> Avaliação: ★★★★★</div>
+                    <p class="autor">- Juliano P. (Desenvolvedor Web)</p>
+                </div>
+                <div class="depoimento-item">
+                    <p>"Eu adorei! A didática é incrível. Finalmente sinto que tenho o conhecimento para começar meu portfólio de projetos."</p>
+                    <div class="rating"> Avaliação: ★★★★★</div>
+                    <p class="autor">- Angela C. (Estudante de DW)</p>
+                </div>
+        </section>
+
+        <section id="inscricao" class="formulario-secao">
+            <div class="container3">
+                <h2>GARANTA O SEU ACESSO AGORA MESMO!</h2>
+                <form id="inscricao-form">
+                    <label for="nome">Nome Completo (Obrigatório):</label>
+                    <input type="text" id="nome" name="name" required>
+
+                    <label for="email">E-mail (Obrigatório):</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefone">Telefone (Opcional):</label>
+                    <input type="tel" id="telefone" name="phone">
+
+                    <button type="submit" class="cta-button submit-button">Baixar E-book</button>
+                    <p id="form-message" class="message"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Contatos: devcursos@gmail.com | (11) 99999-9999</p>
+            <div class="redes-sociais">
+               <i class="fa-brands fa-facebook"></i> <a href="#">Dev. Cursos</a>
+                <i class="fa-brands fa-instagram"></i> <a href="#">@devcursos</a>
+            </div>
+            <p>&copy; 2025 Dev. Cursos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <form action="/register" method="POST">
+    <script src="/script.js"></script> 
+</form>
+</body>
+</html>
